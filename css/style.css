@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+.main {
+  max-width: 120rem;
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.body {
+  background: radial-gradient(#f0483a, #d10a20);
+  font-size: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__ul {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 0;
+}
+@media (min-width: 768px) {
+  .header__ul {
+    font-size: 1.6rem;
+  }
+}
+.header__logo {
+  width: 5em;
+  padding: 1em 0;
+}
+@media (min-width: 768px) {
+  .header__logo {
+    width: 9em;
+  }
+}
+.header__link {
+  color: #fff;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+}
+.content__text {
+  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.content__h2 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .content__h2 {
+    font-size: 6rem;
+  }
+}
+.content__h2Span {
+  font-weight: 700;
+}
+.content__paragraph {
+  font-weight: 200;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .content__paragraph {
+    font-size: 1.6rem;
+  }
+}
+.content__btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #505050;
+  padding: 1em;
+  border-radius: 2em;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .content__btn {
+    width: 60%;
+    padding: 1.5em;
+  }
+}
+
+.footer {
+  width: 100%;
+}
+.footer__ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .footer__ul {
+    justify-content: center;
+    margin-right: 3em;
+    margin: 0;
+  }
+}
+.footer__link {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1em;
+}/*# sourceMappingURL=style.css.map */
